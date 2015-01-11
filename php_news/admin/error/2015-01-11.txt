@@ -1,0 +1,25 @@
+´íÎóSQLÓï¾ä£º
+INSERT INTO `php_news`.`p_newsclass` (`id`, `f_id`, `name`, `keyword`, `remark`)VALUES (NULL, '0', 'å®åº§å¤§äº‹ä»¶, '', '')
+¿Í»§IP:::1
+Ê±¼ä :2015-01-11 11:01:02
+
+´íÎóSQLÓï¾ä£º
+INSERT INTO `php_news`.`p_newsclass` (`id`, `f_id`, `name`, `keyword`, `remark`)VALUES (NULL, '0', 'ä¸‰å¤§å¤§å¦, '', '')
+¿Í»§IP:::1
+Ê±¼ä :2015-01-11 11:01:12
+
+´íÎóSQLÓï¾ä£º
+INSERT INTO `php_news`.`p_newsclass` (`id`, `f_id`, `name`, `keyword`, `remark`)VALUES (NULL, '0', 'ä¸‰å¤§å¤§å¦, '', '')
+¿Í»§IP:::1
+Ê±¼ä :2015-01-11 11:02:06
+
+´íÎóSQLÓï¾ä£º
+INSERT INTO `php_news`.`p_newsclass` (`id`, `f_id`, `name`, `keyword`, `remark`)VALUES (NULL, '0', 'asdadasd, '', '')
+¿Í»§IP:::1
+Ê±¼ä :2015-01-11 11:02:24
+
+´íÎóSQLÓï¾ä£º
+INSERT INTO `php_news`.`p_newsclass` (`id`, `f_id`, `name`, `keyword`, `remark`) VALUES (NULL, '0', '1312313, '', '')
+¿Í»§IP:::1
+Ê±¼ä :2015-01-11 11:04:33
+

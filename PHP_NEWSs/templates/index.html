@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{$sm_config[0]}</title>
+</head>
+<body>
+	{include file="header.html"}
+	<div>
+		<ul>
+			<li><a href="index.php">新闻首页</a></li>
+			{section name=l loop=$sm_class}
+			<li><a href="list.php?cid={$sm_class[l].id}">{$sm_class[l].name}</a></li>
+			{/section}
+		</ul>
+		<div>{$sm_config[0]}</div>
+		<div>{$sm_config[1]}</div>
+		<div>{$sm_config[2]}</div>
+		<div>{$sm_config[3]}</div>
+		<div>{$sm_config[4]}</div>
+		<div>{$sm_config[5]}</div>
+	</div>
+</body>
+</html>

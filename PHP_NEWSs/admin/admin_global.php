@@ -7,5 +7,5 @@
 
 	$db = new action($mydbhost, $mydbuser, $mydbpwd, $mydbname, ALL_PS, $mydbcharset)
 	// $uid = $_SESSION[uid];
-	// $shell = $_SESSION[shell];
+	 //$shell = $_SESSION[shell];
  ?>

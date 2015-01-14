@@ -6,20 +6,20 @@
 </head>
 <body>
 	<ul>
-		<li><a href="index.php">新闻首页</a></li>
+		<li style="display:inline-block;margin-right:15px;"><a href="index.php">新闻首页</a></li>
 		{section name=l loop=$sm_class}
-		<li><a href="list.php?cid={$sm_class[l].id}">{$sm_class[l].name}</a></li>
+		<li style="display:inline-block;margin-right:15px;"><a href="list.php?cid={$sm_class[l].id}">{$sm_class[l].name}</a></li>
 		{/section}
 	</ul>
 	<div style="float:left;width:200px;border:1px solid #CCC;">
-		{section name=l loop=$name_class_list_arr}
+		{section name=l loop=$news_class_list_arr}
 		<div><a href="list.php?cid={$news_class_list_arr[l].id}">{$news_class_list_arr[l].name}</a></div>
 		{/section}
 	</div>
 	<div style="float:left;width:900px;border:1px solid #CCC;margin-left:10px;padding:10px;">
 		{section name=l loop=$sm_list}
 		<div>
-			<h2><a href="list.php$cid={$sm_list[l].cid}">{$sm_list[l].cidname}</a></h2>
+			<h2><a href="list.php?cid={$sm_list[l].cid}">{$sm_list[l].cidname}</a></h2>
 			<span><a href="view.php?id={$sm_list[l].id}">{$sm_list[l].title}</a></span>
 			<div>{$sm_list[l].date_time}</div>
 		</div>

@@ -5,6 +5,7 @@
 
 	if (isset($_POST[into_news])) {
 		$db->query("UPDATE `p_newsbase` SET title = '$_POST[title]' WHERE id = '$_GET[id]'");
+		$db->query("UPDATE `p_newscontent` SET content = '$_POST[content]' WHERE nid = '$_GET[id]'");
 		$db->Get_admin_msg("admin_news_list.php", "修改成功");
 	}
 

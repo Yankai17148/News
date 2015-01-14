@@ -1,17 +1,16 @@
 <?php 
 	include_once("global.php");
 
-	// if (empty($_GET[cid])) {
-	// 	exit();
-	// }
-	echo "!!!";
+	if (empty($_GET[cid])) {
+		exit();
+	}
 
 	$sql = "SELECT *FROM `p_newsclass` WHERE f_id=0 ORDER BY id DESC";
 	$query = $db->query($sql);
 	while ($row_class = $db->fetch_array($query)) {
 		$sm_class[] = array(
 				"name" => $row_class[name],
-				"id" => $row[id]
+				"id" => $row_class[id]
 			);
 	}
 
@@ -34,7 +33,7 @@
 		$news_class_arr[$row[id]] = $row[name];
 	}
 
-	$query = $db->findall("p_newsclass where f_id='$_GET[cid]'");
+	$query = $db->findall("p_newsclass WHERE f_id='$_GET[cid]'");
 	while($row = $db->fetch_array($query)){
 		$news_class_in.= $row[id].",";
 		$news_class_list_arr[] = array("name"=>$row[name], "id"=>$row[id],);
@@ -52,7 +51,6 @@
 	}
 
 	$query = $db->findall("p_newsbase WHERE cid IN ($news_class_in) LIMIT $firstcount, $displaypg");
-	print($query);
 	while ($row = $db->fetch_array($query)) {
 		$sm_list[] = array(
 				"cid" => $row[cid],
@@ -62,6 +60,7 @@
 				"date_time" => date("m/d", $row[date_time])
 			);
 	}
+
 
 	$smarty->assign("sm_list", $sm_list);
 	$smarty->assign("pagenav", $pagenav);

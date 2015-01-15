@@ -1,0 +1,190 @@
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:26:07
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:26:34
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:26:34
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:26:35
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:26:35
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:26:35
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:26:35
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:26:35
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:37:26
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:37:28
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:37:29
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:37:29
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:37:30
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:37:30
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:37:31
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:37:31
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:37:32
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:37:32
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:37:33
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:57:52
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:57:54
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:58:12
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:58:13
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:58:13
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:58:13
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:58:13
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:58:14
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:58:14
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:58:15
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:58:15
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:58:15
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:58:16
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:58:16
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:58:16
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 01:58:17
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 02:07:06
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 02:07:07
+
+错误SQL语句：
+SELECT * FROM p_newsbase WHERE cid IN (1,7,14,11,23,) LIMIT 0, 2
+客户IP:127.0.0.1
+时间 :2015-01-14 02:07:07
+

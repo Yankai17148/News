@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="{$t_dir}templates/css/simditor.css">
+	<link rel="stylesheet" href="{$t_dir}templates/css/css.css">
+	<title>{$sm_config[0]}</title>
+</head>
+<body>
+	{include file="header.html"}
+	<ul>
+		<li style="display:inline-block;margin-right:15px;"><a href="index.php">新闻首页</a></li>
+		{section name=l loop=$sm_class}
+		<li style="display:inline-block;margin-right:15px;"><a href="list.php?cid={$sm_class[l].id}">{$sm_class[l].name}</a></li>
+		{/section}
+	</ul>
+	<div>
+		<h1 style="text-align:center;">{$row_news[2]}</h1>
+		<p style="text-align:center;">时间：{$row_news[4]}&nbsp;&nbsp;&nbsp;作者：{$row_news[3]}</p>
+		<div style="width:800px;padding:10px;box-shadow:0px 0px 10px rgba(0,0,0,.4);margin:0 auto;">{$row_news[7]}</div>
+	</div>
+</body>
+</html>

@@ -1,6 +1,6 @@
 <?php 
 	include_once("admin_global.php");
-	//$r = $db->Get_user_shell_check($uid, $shell);
+	$r = $db->Get_user_shell_check($uid, $shell);
  ?>
 
  <!doctype html>
@@ -35,6 +35,12 @@
  				<li><a href="admin_news_class.php" target=main>新闻分类</a></li>
  				<li><a href="admin_news_list.php"  target=main>新闻列表</a></li>
  				<li><a href="admin_news_add.php" target=main>添加新闻</a></li>
+ 			</ul>
+ 		</li>
+ 		<li>
+ 			其他
+ 			<ul>
+ 				<li><a href="admin_search.php" target=main>搜索</a></li>
  			</ul>
  		</li>
  	</ul>

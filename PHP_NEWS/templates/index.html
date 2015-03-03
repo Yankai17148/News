@@ -7,6 +7,12 @@
 <body>
 	{include file="header.html"}
 	<div>
+		<form action="search.php" method="get">
+			<input type="text" name="key" placeholder="搜索文章标题">
+			<input type="submit" value="search">
+		</form>
+	</div>
+	<div>
 		<ul>
 			<li><a href="index.php">新闻首页</a></li>
 			{section name=l loop=$sm_class}

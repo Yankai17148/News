@@ -5,7 +5,7 @@
 	include_once("common/page.class.php");
 	include_once("common/action.class.php");
 
-	$db = new action($mydbhost, $mydbuser, $mydbpwd, $mydbname, ALL_PS, $mydbcharset)
-	// $uid = $_SESSION[uid];
-	 //$shell = $_SESSION[shell];
+	$db = new action($mydbhost, $mydbuser, $mydbpwd, $mydbname, ALL_PS, $mydbcharset);
+	$uid = $_SESSION[uid];
+	$shell = $_SESSION[shell];
  ?>

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>搜索结果</title>
+	<link rel="stylesheet" href="{$t_dir}templates/css/css.css">
+</head>
+<body>
+	<h1>搜索结果</h1>
+	<div>
+		{section name=l loop=$sm_key}
+		<p style="line-height:40px;font-size:16px;border-bottom:1px dashed #ccc"><a href="view.php?id={$sm_key[l].id}" style="color:#247FAF;text-decoration:none;">{$sm_key[l].title}</a></p>
+		{/section}
+	</div>
+	<a href="index.php">返回首页</a>
+</body>
+</html>

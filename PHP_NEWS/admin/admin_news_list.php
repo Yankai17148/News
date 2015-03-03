@@ -1,7 +1,7 @@
 <?php 
 	include_once("admin_global.php");
 
-	//$r = $db->Get_user_login_check($uid, $shell);
+	$r = $db->Get_user_shell_check($uid, $shell);
 
 	$query = $db->findall("p_newsclass");
 	while ($row = $db->fetch_array($query)) {

@@ -6,6 +6,17 @@
 </head>
 <body>
 	<div>
+		<form action="index.php" method="get">
+			<input type="text" name="key">
+			<input type="submit" value="submit">
+		</form>
+		<div>
+			{section name=l loop=$sm_key}
+			<p><a href="view.php?id={$sm_key[l].id}">{$sm_key[l].title}</a></p>
+			{/section}
+		</div>
+	</div>
+	<div>
 		<ul>
 			<li><a href="index.php">新闻首页</a></li>
 			{section name=l loop=$sm_class}

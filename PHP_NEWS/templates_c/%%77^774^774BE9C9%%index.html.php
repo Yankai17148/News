@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2015-01-13 10:12:31
+<?php /* Smarty version 2.6.26, created on 2015-02-06 03:33:03
          compiled from index.html */ ?>
 <!doctype html>
 <html lang="en">
@@ -13,6 +13,12 @@ $this->_smarty_include(array('smarty_include_tpl_file' => "header.html", 'smarty
 $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
+	<div>
+		<form action="search.php" method="get">
+			<input type="text" name="key" placeholder="搜索文章标题">
+			<input type="submit" value="search">
+		</form>
+	</div>
 	<div>
 		<ul>
 			<li><a href="index.php">新闻首页</a></li>

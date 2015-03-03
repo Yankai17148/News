@@ -29,5 +29,7 @@
 
 	$smarty->assign("sm_news", $sm_news);//最新新闻
 
+	
+
 	$smarty->display("index.html");
  ?>

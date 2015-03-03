@@ -1,7 +1,7 @@
 <?php 
 	include_once("admin_global.php");
 
-	//$r = $db->Get_user_login_check($uid, $shell);
+	$r = $db->Get_user_shell_check($uid, $shell);
 
 	if (isset($_POST[into_class])) {
 		$db->query("INSERT INTO `php_news`.`p_newsclass` (`id`, `f_id`, `name`, `keywrod`, `remark`)" .

@@ -1,7 +1,7 @@
 <?php 
 	include_once("admin_global.php");
 
-	//$r = $db->Get_user_shell_check($uid, $shell);
+	$r = $db->Get_user_shell_check($uid, $shell);
 
 	if (isset($_POST[into_news])) {
 		$db->query("UPDATE `p_newsbase` SET title = '$_POST[title]' WHERE id = '$_GET[id]'");
